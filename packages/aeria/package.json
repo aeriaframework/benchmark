@@ -1,0 +1,19 @@
+{
+  "name": "aeria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sonata-api": "^0.0.17"
+  },
+  "devDependencies": {
+    "sonata-build": "^0.0.11"
+  }
+}
