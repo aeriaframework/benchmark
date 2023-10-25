@@ -29,7 +29,7 @@ export const collections = {
   person: defineCollection(() => ({
     item: Person,
     description: personDescription,
-    functions: useFunctions()([
+    functions: useFunctions<typeof Person>()([
       'insert',
       'getAll'
     ]),
@@ -61,6 +61,6 @@ router.GET('/person', async (context) => {
 })
 
 
-init({}, (context) => {
+init(null, (context) => {
   return router.install(context)
 })

@@ -15,6 +15,8 @@ const PersonSchema = new mongoose.Schema({
       'running'
     ]
   }
+}, {
+  versionKey: false
 })
 
 const Person = mongoose.model('person', PersonSchema, 'mongoose-person')

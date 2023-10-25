@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sonata-api/system": "^0.0.40",
+    "aeria": "link:",
     "sonata-api": "^0.0.17"
   },
   "devDependencies": {
